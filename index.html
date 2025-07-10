@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ravi 👶</title>
+</head>
+<body>
+  <div class="container">
+    
+    <h1>Convite Especial!</h1>
+    <h2>Chá de Bebê do Ravi 💕</h2>
+    <div class="info">
+      <p>Estou muito feliz em convidar você para o chá de bebê do nosso querido Ravi!👶</p>
+      <p><strong>Data:</strong> 03 de Agosto de 2025</p>
+      <p><strong>Local:</strong> Rua Exemplo, Exemplo - Ferraz de Vasconcelos</p>
+      <p><strong>Horário:</strong> 15h00</p>
+    </div>
+     <div class="contador">
+        <h1>Contagem Regressiva para o Evento! ✨</h1>
+        <div class="tempo" id="tempo"></div>
+    </div>
+        <script>
+        function atualizarContador() {
+            const agora = new Date();
+            const anoAtual = agora.getFullYear();
+            const destino = new Date(`${anoAtual}-08-03T15:00:00`);
+
+            // Se a data já passou neste ano, conta para o ano seguinte
+            if (agora > destino) {
+                destino.setFullYear(anoAtual + 1);
+            }
+
+            const diferenca = destino - agora;
+
+            const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((diferenca % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+            document.getElementById("tempo").innerHTML = `${dias} dias e ${horas} horas`;
+        }
+
+        atualizarContador();
+        setInterval(atualizarContador, 1000 * 60 * 60); // Atualiza a cada hora
+    </script>
+    
+    <div class="button1">
+      <button><a href="index1.html">Venha fazer Parte da nossa história!</a></button>
+      
+    </div>
+  </div>
+</body>
+</html>

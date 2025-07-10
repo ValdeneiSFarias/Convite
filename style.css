@@ -1,0 +1,52 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f9f3f3;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2em;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #13acff;
+      text-align: center;
+    }
+    .info {
+      text-align: center;
+      margin: 2em 0;
+    }
+   .button1 > button a{
+    text-decoration: none;
+    color: #fffb00;
+   }
+
+    .button1 > button{
+      background: #0080ff;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      padding: 1em 2em;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      display: block;
+      margin: 0 auto;
+      margin-top: 35px;
+    }
+    .contador {
+            text-align: center;
+            background-color: white;
+            padding: 25px;
+            border-radius: 7px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            font-size: 0.8rem;
+        }
+        .tempo {
+            font-size: 1.5rem;
+            margin-top: 25px;
+        }

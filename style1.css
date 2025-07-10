@@ -1,0 +1,350 @@
+/* @import */
+@font-face {
+    font-family: chewy;
+    src: url(text/Chewy\ Bubble.otf) format('opentype');
+}
+@font-face {
+    font-family: gleeful;
+    src: url(text/Gleeful-Bubble-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: letters;
+    src: url(text/Letters\ for\ Learners\ Dots.ttf) format('truetype');
+}
+@font-face {
+    font-family: magia;
+    src: url(text/MEGLORIA.ttf) format('truetype');
+}
+@font-face {
+    font-family: smart;
+    src: url(text/Smart_Kid.otf) format('opentype');
+}
+@font-face {
+    font-family: alice;
+    src: url(text/Alice\ in\ Wonderland.ttf) format('truetype');
+}
+@font-face {
+    font-family: rodape;
+    src: url(text/Hey\ Comic.ttf) format('truetype')
+}
+/* Corpo */
+body {
+    font-family: arial, sans-serif;
+    background-image: url('imagens/baloes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header/button */
+header {
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    top: 7px;
+    margin-left: 3.7vw;
+    width: 100%;
+    background-color: rgba(0, 21, 255, 0);
+    background-size: cover;
+    z-index: 10;
+}
+/*inicio*/
+header span button {
+    display: flex;
+    font-family: 'magia', sans-serif;
+    font-size: 1.7rem;
+    color: #ec7e00;
+    text-shadow: #000000 2px 2px 1px;
+    
+    background-color:  rgba(0, 153, 255, 0.214);
+    border: 1px solid #ff8800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ff9d1d;
+    text-shadow: #000000 2px 3px 1px;
+    background-color: rgba(0, 38, 255, 0.477);
+}
+button:active {
+    color: #45fff9;
+    text-shadow: #000000 2px 1px 2px;
+    background-color:rgba(0, 21, 255, 0.584);
+}
+header span img {
+    width: 8vh;
+    height: 6vh;
+    vertical-align: -10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+#final button {
+    font-family: 'magia', sans-serif;
+    font-size: 1.7rem;
+    color: #ec7e00;
+    text-shadow: #000000 2px 2px 2px;
+    text-align: left;
+    background-color: rgba(0, 153, 255, 0.214);
+    position: fixed;
+    bottom: 1px;
+    left: 4%;
+    width: 107px;
+    height: 50px;
+    border: 1px solid #ff8800;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+}
+#final button:hover {
+    color: #ff9d1d;
+    text-shadow: #000000 2px 3px 1px;
+    background-color: rgba(0, 38, 255, 0.477);
+}
+#final button:active {
+    color: #45fff9;
+    text-shadow: #000000 2px 1px 2px;
+    background-color:rgba(0, 21, 255, 0.584);
+}
+header span img {
+    width: 8vh;
+    height: 6vh;
+    vertical-align: -10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+/* corpo da página */
+#corpo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-color: rgba(0, 153, 255, 0.214);
+    border-radius: 10px;
+    width: 93%;
+    margin: 0 auto;
+    top:8vh;
+}
+#Ravi {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: 'magia', sans-serif;
+    font-size: 2.3rem;
+    color: #ff8800;
+    text-shadow: 1px 1px 3px rgb(225, 243, 255);
+    margin-top: 15px !important;
+    left: 10px;
+    right: 3.5%;
+}
+#Ravi img {
+    width: 47px;
+    height: 35px;
+    margin-left: 10px;
+}
+.mensagem1 {
+    background-color: #89f274e8;
+}
+/* Inicio do conteudo*/
+h1 {
+    font-family: 'magia', sans-serif;
+    color: #ff8800;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0vh;
+    text-shadow: 1px 1px 3px rgb(225, 243, 255);
+    text-wrap: wrap;
+    right: 3.5%;
+}
+h2 {
+    font-family: 'magia', sans-serif;
+    color: #ff8800;
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgb(225, 243, 255);
+    text-wrap: wrap;
+    right: 3.5%;
+    margin-top: 10px;
+}
+h4 {
+    font-family: 'magia', sans-serif;
+    color: #ffe600;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 0vh;
+    text-shadow: 1px 1px 2px rgb(0, 68, 255);
+    text-wrap: wrap;
+    right: 3.5%;
+}
+p.escolha{
+    font-size: 0.9rem;
+    color:#ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'smart', sans-serif;
+    color:  #000000;
+    text-align: center;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 80%;
+    text-wrap: wrap;
+    right: 3.5%;
+    margin-bottom: 8px;
+   }
+p.rodape {
+    font-family: 'rodape', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+p>strong {
+    color: #ff0000;
+}
+
+/* itens da lista de presentes */
+.gift-list {
+    margin: 0 auto;
+    flex-direction: column repeat(3, 1fr);
+}
+.licheckbox {
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    margin: 3px;
+    background-color: transparent;
+    border: none;
+}
+.ul-presentes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 6%;
+    margin-left: auto;
+    gap: 16px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+/* ...existing code... */
+.ul-presentes li {
+    position: relative;
+    background: #ffc87b75;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+/* Imagens */
+.ul-presentes li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+}
+.textzimg {
+    position: absolute;
+    left: 50%;
+    bottom: 2px; /* Ajuste conforme necessário */
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'gleeful', sans-serif;
+    color: #009dff;
+    text-shadow: #000000 1px 1px 2px;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    text-align: center;
+    z-index: 5;
+    background-color: rgba(255, 197, 6, 0.51);
+    padding: 2px 0;
+    border: none;
+    border-radius: 4px;
+}
+.hrh4 {
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+h4 {
+    margin-bottom: 10px;
+}
+#whatsapp button {
+    font-family: 'magia', sans-serif;
+    font-size: 1.8rem;
+    color: #20ee00;
+    text-shadow: #000000 4px 3px 2px;
+    text-align: left;
+    background-color: rgba(255, 0, 0, 0.74);
+    position: fixed;
+    bottom: 7px;
+    right: 5%;
+    width: 167px;
+    height: 48px;
+    border: 2px 2px #20ee00;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+}
+#whatsapp img {
+    width: 30px;
+    height: 30px;
+    vertical-align: -3px;
+    margin-left: 4px;
+    filter: drop-shadow(4px 3px 2px #000000);
+}
+#whatsapp button:hover {
+    color: #009e00;
+    text-shadow: #000000 2px 3px 1px;
+    background-color: rgba(0, 61, 230, 0.51);
+}
+#whatsapp button:active {
+    color: #45fff9;
+    text-shadow: #000000 2px 1px 1px;
+    background-color: rgba(0, 21, 255, 0.622);
+}
+#fim {
+    margin-bottom: 150px
+}
+/* Responsividade */
+@media (min-width: 100px) {
+    .ul-presentes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ul-presentes > li {
+        max-width: 600px;
+    }
+}
+@media (min-width: 600px) {
+    .ul-presentes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .ul-presentes > li {
+        max-width: 850px;
+    }
+}
+@media (min-width: 850px) {
+    .ul-presentes {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .ul-presentes > li {
+        max-width: 1100px;
+    }
+}
+@media (min-width: 1100px) {
+    .ul-presentes {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .ul-presentes > li {
+        max-width: 1820px;
+    }
+}
